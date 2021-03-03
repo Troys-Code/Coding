@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\User\Desktop\Recursive_PowerFunction_And_RecursiveLogFunction\main.cpp(16): warning C4715:  'log': not all control paths return a value
+  Recursive_PowerFunction_And_RecursiveLogFunction.vcxproj -> C:\Users\User\Desktop\Recursive_PowerFunction_And_RecursiveLogFunction\Debug\Recursive_PowerFunction_And_RecursiveLogFunction.exe

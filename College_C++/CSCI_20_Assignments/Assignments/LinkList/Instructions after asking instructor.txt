@@ -1,0 +1,14 @@
+The assignment operator is called when we assign one object to another preexisting object  e.g.
+
+myList = yourList;
+
+The copy constructor is called when we initialize one object using another e.g.
+
+LinkedList myList = yourList;
+
+The copy constructor is also called when an object is passed by value to a function or returned by value from a function.
+
+In the case of LinkedList we need to overload both copy constructor and assignment operator. 
+Otherwise the head pointer of the myList will point to the head of yourList.  
+To avoid that we perform a deep copy, i.e. allocate new nodes for myList with the same data as yourList.  
+Also, in the case of the assignment operator, we need to call clear to deallocate the existing nodes of myList.

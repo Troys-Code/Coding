@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1567747335 source:c:\users\user\desktop\cs20\letterbag\letterbag.cpp
+	"LetterBag.h"
+
+1567746120 c:\users\user\desktop\cs20\letterbag\letterbag.h
+	<string>
+	<iostream>
+
+1567746237 source:c:\users\user\desktop\cs20\letterbag\main.cpp
+	<iostream>
+	"LetterBag.h"
+	<string>
+
