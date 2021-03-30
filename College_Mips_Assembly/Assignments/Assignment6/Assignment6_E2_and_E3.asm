@@ -10,11 +10,8 @@
 #
 # Variable Usage Below:
 # Using $t0 as the index
-# Using $t1 as a space to compare against
+# Using $t1 as the current character in the string
 # Using $t2 as the previous character in the string
-# Using $t3 as the current character in the string
-# Using $t4 as 'a': Top Of Range to be converted to lowercase
-# Using $t5 as 'z': End of Range to be converted to lowercase
 #	
 .data	
 string:	.asciiz "in a hole in the ground there lived a hobbit"
